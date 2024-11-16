@@ -57,15 +57,15 @@ const MovieListContainer = styled.div
 `display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 30px;
-  gap: 25px;
+  padding: 5px;
+  gap: 5px;
   justify-content: space-evenly;`
 ;
 const Placeholder = styled.img
 ` background-color: black;
-  width: 65%;
+  width: 68%;
   height: 20%;
-  margin: 10px;
+  margin: 5px;
   opacity: 100%;`
 ;
 
@@ -119,7 +119,8 @@ function App() {
             />
           ))
         ) : (
-          <Placeholder src="/react-movie-app/giphy (2).webp" />
+          // <Placeholder src="/react-movie-app/giphy (2).webp" />
+          <Placeholder src="/react-movie-app/cinema-movie.jpg" />
         )}
       </MovieListContainer>
     </Container>
